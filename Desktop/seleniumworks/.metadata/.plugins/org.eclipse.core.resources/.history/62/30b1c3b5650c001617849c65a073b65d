@@ -1,0 +1,40 @@
+package OOPsConcepts;
+
+public class CarDemo {
+	
+	String model;
+	String engine;
+	int year;
+	
+	public String getmodel(){
+		return this.model;
+	}
+	
+	public void setmodel(String mname){
+		this.model=mname;
+	}
+	public String getengine(){
+	return	this.engine;
+	}
+	public void setengine(String engi){
+		this.engine=engi;
+	}
+	public int getyear(){
+		return this.year;
+	}
+	public void setyear(int x){
+		
+		this.year=90;
+	}
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		CarDemo c=new CarDemo();
+	c.setmodel("maruthi");
+	c.setengine("old");
+	c.setyear(1990);
+	}
+
+}

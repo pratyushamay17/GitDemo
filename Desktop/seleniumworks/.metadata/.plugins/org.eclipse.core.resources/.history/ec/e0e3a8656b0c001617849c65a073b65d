@@ -1,0 +1,17 @@
+package OOPsConcepts;
+
+public class Maruthi extends CarDemo{
+	
+	Maruthi(String y)
+	{
+		this.model =y;
+	}
+	
+	public static void main(String[] args){
+		String x="kkk";
+		Maruthi zen = new Maruthi(x);
+		System.out.println(zen);
+	
+	}
+
+}

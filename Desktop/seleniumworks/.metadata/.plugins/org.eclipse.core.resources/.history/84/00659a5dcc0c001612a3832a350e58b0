@@ -1,0 +1,29 @@
+package java1;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class HandlingTable {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+WebDriver d=new FirefoxDriver();
+d.get("file:///C:/Users/chintu/Desktop/selenium%20works/htmltable.html");
+String value=d.findElement(By.xpath(".//*[@id=' students']/tbody/tr[2]/td[3]")).getText();
+System.out.println(value);
+System.out.println(d.findElement(By.xpath(".//*[@id=' students']/tbody/tr[3]/td[1]")).getText());
+WebElement htmltable=d.findElement(By.xpath("//table[@id=' students']"));
+List<WebElement> l= htmltable.findElements(By.tagName("tr"));// webelement tag is used for reference of webelement
+int rows=l.size();
+System.out.println(rows);
+
+List<WebElement> c=htmltable.findElements(By.tagName("td"));
+int cells=c.size();
+System.out.println(cells);
+	}
+
+}

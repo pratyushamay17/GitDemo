@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Inline local variable &apos;pack1.Airasia.main().url&apos; in &apos;pack1.Airasia.main()&apos;&#x0D;&#x0A;- Original project: &apos;pack1&apos;&#x0D;&#x0A;- Original element: &apos;pack1.Airasia.main().url&apos;" description="Inline local variable &apos;url&apos;" id="org.eclipse.jdt.ui.inline.temp" input="/src&lt;pack1{Airasia.java" selection="311 22" stamp="1452734930089" version="1.0"/>
+</session>

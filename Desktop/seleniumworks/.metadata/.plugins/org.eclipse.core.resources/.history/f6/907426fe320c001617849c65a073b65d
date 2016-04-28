@@ -1,0 +1,17 @@
+package java1;
+
+public class StringArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String mytool="selenium";
+		String [] mytools={"uft", "selenium","rft"};
+		System.out.println(mytool);
+		for(String tool:mytools){
+			System.out.println(tool);
+		}
+		String s="training";
+		System.out.println(mytool+s);
+	}
+
+}

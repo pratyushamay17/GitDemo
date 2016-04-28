@@ -1,0 +1,19 @@
+package java1;
+
+public class StringArray {
+
+	public static void main(String[] args)throws ArrayIndexOutOfBoundsException {
+		// TODO Auto-generated method stub
+		String mytool="selenium";
+		String [] mytools={"uft", "selenium","rft"};
+		System.out.println(mytool);
+		for(String tool:mytools){
+			System.out.println(tool);
+		}
+		String s="training";
+		System.out.println(mytool +s +1+1);
+		System.out.println(1+1+s);
+		System.out.println(mytools[8]);
+	}
+
+}

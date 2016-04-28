@@ -1,0 +1,27 @@
+package OOPsConcepts;
+
+public class Dress {
+	String dname;
+	String gender;
+	String material;
+	
+	Dress(String d,String g){
+		this.dname=d;
+		this.gender=g;
+		this.material="cotton";
+	}
+	public Dress method(){
+		return this;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Dress obj=new Dress("jeans","f");
+		System.out.println(obj.method());
+		Dress obj2=obj;
+		System.out.println(obj2.method());
+		obj2=new Dress("shirt","m");
+		System.out.println(obj2.method());
+	}
+
+}

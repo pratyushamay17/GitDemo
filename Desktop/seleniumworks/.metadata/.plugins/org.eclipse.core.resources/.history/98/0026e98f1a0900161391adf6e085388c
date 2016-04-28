@@ -1,0 +1,55 @@
+package java1;
+
+public class FunctionDemo {
+
+	int x;
+	String name;
+	boolean flag = true;
+	FunctionDemo a;
+	
+	
+	void Prathyush()
+	{
+		if(this.flag)	
+		{ 
+			this.name="prathyusha";
+			return;
+		}
+	}
+	
+	String PrathyushaName()
+	{
+		String x = "xxxxxx";
+		if(this.flag)	
+		{ 
+			this.name="prathyusha";
+			return name;
+		}
+		
+		if(!flag)
+		{
+			return x;	
+		}
+	return "";	
+	}
+	
+	FunctionDemo Jeevan(int x)
+	{
+		FunctionDemo j = new FunctionDemo();
+		return j;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

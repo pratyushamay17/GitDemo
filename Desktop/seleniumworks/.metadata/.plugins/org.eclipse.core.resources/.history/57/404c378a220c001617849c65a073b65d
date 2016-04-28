@@ -1,0 +1,25 @@
+package java1;
+
+import java.util.Arrays;
+
+public class ArrayMethod {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int [] a ={2,5,78,34};
+		String [] b={"selenium","rft","uft"};
+		String str=Arrays.toString(b);
+		System.out.println(str);
+		
+		boolean bool=Arrays.asList(b).contains("uft");
+		System.out.println(bool);
+		boolean bool1=Arrays.asList(b).contains("rft1");
+		System.out.println(bool1);
+		
+		System.out.println(a.length);
+		
+
+	}
+
+}

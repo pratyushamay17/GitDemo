@@ -1,0 +1,12 @@
+package OOPsConcepts;
+
+public class Maruthi extends CarDemo{
+	
+	
+	public static void main(String[] args){
+		Maruthi zen = new Maruthi();
+		zen.model="";
+		zen.year = 1990;
+	}
+
+}
