@@ -7,6 +7,8 @@ int year;
 	Maruthi(String y)
 	{
 		this.model =y;
+		this.model =y;
+		this.model = y;
 	}
 	
 	public void printDetails(String engi,int year){
