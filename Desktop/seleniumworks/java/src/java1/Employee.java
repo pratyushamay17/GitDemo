@@ -8,6 +8,7 @@ int salary;
 
 public void empname(String name){
 	this.name=name;
+	this.age=20;
 	System.out.println("emplayee name is" +name);
 }
 public void empAge(int empage){
